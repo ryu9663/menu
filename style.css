@@ -1,0 +1,25 @@
+body{font-family: cursive;font-size: 20px;text-align: center;
+color:deepskyblue ;text-decoration:none;}
+h1,a{font-family: cursive;font-size: 30px;text-align: center;
+color:deepskyblue ;text-decoration:none;}
+/* 1~4 글씨체, 색깔, 가운데정렬, 글씨 크기 */
+
+
+  .Content{
+    padding:0px; padding-bottom : 20px; margin : 0;}
+/* 8~9 메뉴바 */
+
+
+
+    #grid{display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        text-decoration: none;}
+
+        .saw{
+          border-right :1px gray solid; height:40px;
+           padding-top:20px;font-size: 20px;}
+
+/* 14~20 메뉴바  */
+
+        #lastMenuBar{border:0px;}
+        /* 24:가장 마지막은 border없앴음 */
